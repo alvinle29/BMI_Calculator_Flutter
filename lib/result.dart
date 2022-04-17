@@ -1,4 +1,5 @@
 // ignore_for_file: prefer_const_constructors
+//ignore: must_be_immutable
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -100,7 +101,6 @@ class _ResultState extends State<Result> {
                       color: Colors.green,
                       fontWeight: FontWeight.bold,
                     ),
-
                   ),
                   Text(
                       result,

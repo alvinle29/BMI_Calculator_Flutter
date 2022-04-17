@@ -14,11 +14,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-
       home: BMICalculator(),
     );
   }
 }
+
 class BMICalculator extends StatefulWidget {
   const BMICalculator({Key? key}) : super(key: key);
 
@@ -30,7 +30,6 @@ class _BMICalculatorState extends State<BMICalculator> {
 
   int currentIndex = 0;
   String result = '';
-
   int selectedCard = 0;
   int sliderValue = 150;
   int weight = 0;
@@ -336,10 +335,8 @@ class _BMICalculatorState extends State<BMICalculator> {
                                   ),
                                 ),
                               ),
-
                             ],
                           )
-
                         ],
                       ),
                       margin: EdgeInsets.all(8.0),
